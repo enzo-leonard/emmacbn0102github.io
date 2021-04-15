@@ -1,20 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arvo&family=Bebas+Neue&display=swap');
 
 body{
-  font-family: "lobster";
+  font-family: "Arvo";
+  background-color: #d3e0ea
 }
 
-h1{
-  Color: #007580;
+div {
+  border: 2px solide black;
+  margin: 40px;
+  padding: 50px;
+  border-radius: 16px;
   text-align: center;
 }
 
+h1 {
+  color: #FFFF;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
 .hero{
-  height: 70vh;
+  height: 50vh;
+  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://bernardaud-prod.s3.eu-west-3.amazonaws.com/atmosphere_images/files/000/000/084/original/BougiesDecorees.jpg?1589298056");
+  background-image: url(https://images.unsplash.com/photo-1586985290301-8db40143d525?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
   background-size: cover;
 
 }
+
+.exemple2 h1{
+  background-color: pink;  
+}
+
+.card {
+  border: 1px solid gray;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.btn{
+  background-color: #121013;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
